@@ -11,6 +11,7 @@ export default class Food {
 		this.addFood(DEFAULT_FOOD_COUNT)
 
 		setInterval(() => {
+			window.SNAKE.food = []
 			this.addFood(DEFAULT_FOOD_COUNT)
 		}, 5000)
 		
