@@ -32,8 +32,8 @@ export default class Food {
 
 		for (let i = 0; i < foodCount; i++) {
 			let foodCoords = { 
-				x: this._convertToTens(random(0, width)), 
-				y: this._convertToTens(random(0, height)),
+				x: this._convertToTens(random(0, width - 10)), 
+				y: this._convertToTens(random(0, height - 10)),
 			}
 
 			const renderProps = {
