@@ -22,7 +22,7 @@ export default class Food {
 		const { food } = window.SNAKE
 		const clearCanvasProps = {
 			ctx: this.ctx,
-			targetObj: this.canvas,
+			targetObj: this.ctx.canvas,
 			x: 0,
 			y: 0,
 		}
