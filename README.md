@@ -10,4 +10,8 @@
 http://localhost:8080 TO PLAY!
 
 
-# Snake
+# TODO
+Update style to look like Nokia Snake
+Reset snake when game over
+Increase snake speed as it grows
+Online Multiplayer?
