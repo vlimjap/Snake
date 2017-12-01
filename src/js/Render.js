@@ -19,10 +19,10 @@ export function renderCanvas(props) {
 export function clearCanvas(props) {
 	const {
 		ctx,
-		targetObj,
+		canvas,
 		x,
 		y,
 	} = props
 
-	ctx.clearRect(x, y, targetObj.width, targetObj.height)
+	ctx.clearRect(x, y, canvas.width, canvas.height)
 }

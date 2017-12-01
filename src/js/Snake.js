@@ -11,7 +11,7 @@ import {
 const DEFAULT_DIRECTION = DIRECTIONS.down
 
 export default class Snake {
-	constructor(props) {
+	constructor(snakeProps) {
 		const { 
 			canvas, 
 			fillStyle, 
@@ -21,10 +21,9 @@ export default class Snake {
 			startX, //initial X coord
 			startY, //initial Y coord
 			strokeStyle, 
-		} = props
+		} = snakeProps
 
-		this.reptile = canvas
-		this.ctx = this.reptile.getContext('2d')
+		this.ctx = canvas.getContext('2d')
 
 		this.props = {
 			currentDirection: DEFAULT_DIRECTION,
@@ -40,7 +39,7 @@ export default class Snake {
 		this.move = new Crawl({ 
 			...this.props,
 			ctx: this.ctx, 
-			targetObj: this.reptile,
+			canvas: canvas
 		})
 
 		this._attachEvtListeners()

@@ -5,7 +5,6 @@ import { renderCanvas, clearCanvas } from './Render'
 export default class Crawl {
 	constructor(props) {
 		this.props = props
-
 		this.props.movement = {}
 	}
 
@@ -76,7 +75,7 @@ export default class Crawl {
 			ctx, 
 			segments, 
 			currentDirection, 
-			targetObj
+			canvas
 		} = this.props
 
 		const nextLocation = this._getNextLocation(currentDirection)
