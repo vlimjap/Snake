@@ -17,3 +17,5 @@ Reset snake when game over
 Increase snake speed as it grows
 
 Online Multiplayer?
+
+Introduce Scoring system where Player has X secs to accumulate Y points in order to keep playing
