@@ -4,11 +4,10 @@
 
 `npm run dev` - runs local server
 
-## /dist - Compiled files  ##
-## /src - src files ##
-
 http://localhost:8080 TO PLAY!
 
+## /dist - Compiled files  ##
+## /src - src files ##
 
 # TODO
 Update style to look like Nokia Snake
