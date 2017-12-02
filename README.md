@@ -6,6 +6,8 @@
 
 http://localhost:8080 TO PLAY!
 
+Live DEMO: https://vlimjap.github.io/Snake/dist/index.html
+
 ## /dist - Compiled files  ##
 ## /src - src files ##
 
